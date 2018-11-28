@@ -204,10 +204,24 @@
     <Compile Include="Migrations\201811222031318_intialmigration.Designer.cs">
       <DependentUpon>201811222031318_intialmigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811222059108_creategigtable.cs" />
+    <Compile Include="Migrations\201811222059108_creategigtable.Designer.cs">
+      <DependentUpon>201811222059108_creategigtable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811281742051_bereket.cs" />
+    <Compile Include="Migrations\201811281742051_bereket.Designer.cs">
+      <DependentUpon>201811281742051_bereket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811281742412_createworkers.cs" />
+    <Compile Include="Migrations\201811281742412_createworkers.Designer.cs">
+      <DependentUpon>201811281742412_createworkers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\NewTask.cs" />
+    <Compile Include="Models\Worker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -290,6 +304,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201811222031318_intialmigration.resx">
       <DependentUpon>201811222031318_intialmigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811222059108_creategigtable.resx">
+      <DependentUpon>201811222059108_creategigtable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811281742051_bereket.resx">
+      <DependentUpon>201811281742051_bereket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811281742412_createworkers.resx">
+      <DependentUpon>201811281742412_createworkers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
