@@ -8,7 +8,7 @@ namespace EmployeeControler.Models
         public int Id { get; set; }
 
         [Required]
-        public string TaskMame { get; set; }
+        public string TaskName { get; set; }
 
         public DateTime DateTime { get; set; }
 
